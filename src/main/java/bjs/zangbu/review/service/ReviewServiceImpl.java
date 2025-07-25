@@ -13,7 +13,7 @@ import java.util.List;
 
 @Service
 @RequiredArgsConstructor
-public class ReviewServiceImpl implements ReviewService{
+public class ReviewServiceImpl implements ReviewService {
     private final ReviewMapper reviewMapper;
 
     @Override
@@ -36,5 +36,5 @@ public class ReviewServiceImpl implements ReviewService{
 
         // 최종 결과 조립
         return new ReviewListResult(total, list, hasNext, latestRank);
-   }
+    }
 }
