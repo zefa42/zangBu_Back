@@ -3,6 +3,7 @@ package bjs.zangbu.review.service;
 import bjs.zangbu.review.dto.response.ReviewListResponse;
 import bjs.zangbu.review.dto.response.ReviewListResult;
 import bjs.zangbu.review.mapper.ReviewMapper;
+
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import lombok.RequiredArgsConstructor;
@@ -35,5 +36,5 @@ public class ReviewServiceImpl implements ReviewService{
 
         // 최종 결과 조립
         return new ReviewListResult(total, list, hasNext, latestRank);
-    }
+   }
 }
