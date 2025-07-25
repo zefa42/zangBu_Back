@@ -9,7 +9,6 @@ import java.util.List;
 @Mapper
 public interface ReviewMapper {
     List<ReviewListResponse> selectByBuilding(@Param("buildingId") long buildingId);
-
     Long countByBuilding(@Param("building") Long buildingId);
 
     // 최신 리뷰의 별점 가져오기
