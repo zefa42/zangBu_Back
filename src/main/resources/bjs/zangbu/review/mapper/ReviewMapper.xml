@@ -47,7 +47,7 @@
     </select>
 
 
-    <!-- ★ 리뷰 생성(insertReview) -->
+    <!-- 리뷰 생성(insertReview) -->
     <insert id="insertReview"
             parameterType="bjs.zangbu.review.mapper.ReviewInsertParam"
             useGeneratedKeys="true"
